@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E%F0%9F%A6%84%3C%2Ftext%3E%3C%2Fsvg%3E"
+      type="image/svg+xml"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table Example</title>
+  </head>
+  <body>
+    <table>
+      <caption>Caption de la tabla</caption>
+      <thead>
+        <tr>
+          <th>thead th uno</th>
+          <th colspan="4">thead th dos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="2">head de tbody</th>
+          <td>tbody td 1</td>
+          <td>tbody td 2</td>
+          <td>tbody td 3</td>
+          <td>tbody td 4</td>
+        </tr>
+        <tr>
+          <td>tbody td 1</td>
+          <td>tbody td 2</td>
+          <td>tbody td 3</td>
+          <td>tbody td 4</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="5">tfoot td 1</th>
+ <!--          <th>tfoot td 2</th>
+          <th>tfoot td 3</th>
+          <th>tfoot td 4</th>
+          <th>tfoot td 5</th> -->
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
