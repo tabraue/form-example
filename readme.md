@@ -3,7 +3,7 @@
 - Step 1: `fork` this repository
 - Step 2: `clone` it into your "code" folder
 
-This is the structure of a table and form, according to syllabus Dojo. 
+This is the structure of a table and form, according to Dojo' syllabus. 
 
 Feel free to modify them!
 
